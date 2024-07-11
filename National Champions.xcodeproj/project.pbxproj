@@ -569,7 +569,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.romrell4.NationalChampions;
+				PRODUCT_BUNDLE_IDENTIFIER = com.romrell4.NationalChampionsLeague;
 				PRODUCT_NAME = "National Champs";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -592,9 +592,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.romrell4.NationalChampions;
+				PRODUCT_BUNDLE_IDENTIFIER = com.romrell4.NationalChampionsLeague;
 				PRODUCT_NAME = "National Champs";
-				PROVISIONING_PROFILE_SPECIFIER = "National Champions Distribution Profile";
+				PROVISIONING_PROFILE_SPECIFIER = "National Champions League Distribution Profile";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

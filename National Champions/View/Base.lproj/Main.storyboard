@@ -1384,10 +1384,10 @@
         <image name="ReportMatch" width="25" height="25"/>
         <image name="Singles" width="25" height="25"/>
         <namedColor name="PrimaryColor">
-            <color red="1" green="0.50588235294117645" blue="0.22745098039215686" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.25882352941176473" green="0.52941176470588236" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="SecondaryColor">
-            <color red="0.84705882352941175" green="1" blue="0.090196078431372548" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.69019607843137254" green="1" blue="0.69411764705882351" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

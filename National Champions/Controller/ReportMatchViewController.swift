@@ -127,7 +127,7 @@ class ReportMatchViewController: UIViewController, UIPickerViewDelegate, UIPicke
 	//Listeners
 	
 	@objc private func titleTapped(_ sender: Any) {
-		if let url = URL(string: "https://national-champions.s3-us-west-2.amazonaws.com/index.html") {
+		if let url = URL(string: "https://national-champions-league.s3-us-west-2.amazonaws.com/index.html") {
 			UIApplication.shared.open(url)
 		}
 	}

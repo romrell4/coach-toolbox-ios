@@ -17,7 +17,7 @@ struct DataWrapper: Codable {
 	let players: [Player]
 	let matches: [Match]
 	
-	static func load(from url: String = "https://romrell4.github.io/national-champions-ios/all_data.json", completionHandler: @escaping (Result<DataWrapper>) -> Void) {
+	static func load(from url: String = "https://romrell4.github.io/national-champions-ios/league_all_data.json", completionHandler: @escaping (Result<DataWrapper>) -> Void) {
 		if let url = URL(string: url) {
 			URLSession.shared.dataTask(with: url) { data, _, _ in
 				DispatchQueue.main.async {

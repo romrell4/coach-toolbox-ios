@@ -4,15 +4,15 @@ platform :ios do
   desc "Description of what the lane does"
   lane :deploy do
     ensure_git_status_clean
-    run_tests
-    old_build_number = get_build_number
-    new_build_number = increment_build_number
-    sh("sed", "-i", "", "s/(#{old_build_number})/(#{new_build_number})/g", "../s3/manifest.plist")
-    git_add(path: "s3/manifest.plist")
-    git_commit(path: "*", message: "Upgraded to build #{new_build_number}")
-    add_git_tag
-    push_to_git_remote
+    #run_tests
+    #old_build_number = get_build_number
+    #new_build_number = increment_build_number
+    #sh("sed", "-i", "", "s/(#{old_build_number})/(#{new_build_number})/g", "../s3/manifest.plist")
+    #git_add(path: "s3/manifest.plist")
+    #git_commit(path: "*", message: "Upgraded to build #{new_build_number}")
+    #add_git_tag
+    #push_to_git_remote
     gym(output_directory: "s3", output_name: "National Champions.ipa", export_method: "ad-hoc")
-    sh("aws", "s3", "sync", "../s3", "s3://national-champions", "--acl", "public-read")
+    sh("aws", "s3", "sync", "../s3", "s3://national-champions-league", "--acl", "public-read")
   end
 end
